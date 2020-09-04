@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myreciepe {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.search-bar {
+  background-color: white;
+  outline: none;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  margin-left: 2rem;
+  width: 20%;
+}
+
+.search-button {
+  outline: none;
+  border: none;
+  background-color: white;
+  margin-left: 3px;
+  border-radius: 50%;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #3f6f71;
+  color: white;
+}
+
+.select-form {
+  background: #3f6f71;
+  border-radius: 5px;
+  color: white;
+  min-width: 9%;
+  text-align: center;
+  padding: 5px;
+  outline: none;
+  border: 1px solid white;
+}
+
+.card-form {
+  display: grid;
+  margin-top: 5%;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 15rem));
+  gap: 2.5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 18rem;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-list img {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0.5rem;
+  border: 1px solid white;
+}
+.card-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card-info h3 {
+  font-weight: bold;
+}
+.card-list button {
+  color: white;
+  background-color: #3f6f71;
+  font-size: 13px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-family: Andale Mono, AndaleMono, monospace;
+  cursor: pointer;
+  outline: none;
+}

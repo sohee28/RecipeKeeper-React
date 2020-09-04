@@ -1,0 +1,43 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0 40px;
+  margin-top: 1.6rem;
+}
+
+.logo {
+  height: 50px;
+  width: 100px;
+  flex-shrink: 0;
+}
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5%;
+}
+.nav-list {
+  padding: 1rem;
+  color: black;
+  font-size: 14px;
+}
+
+.login-button {
+  color: white;
+  background-color: #3f6f71;
+  font-size: 14px;
+  border: none;
+  padding: 0.6rem 1.8rem;
+  border-radius: 5px;
+  font-family: Andale Mono, AndaleMono, monospace;
+  cursor: pointer;
+  border: 1px solid white;
+}

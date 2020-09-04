@@ -1,0 +1,95 @@
+.DetailInfoContainer {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 87%;
+  height: 80%;
+  margin-left: 7%;
+  margin-top: 6%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+.DetailInfoInner {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.close-field {
+  text-align: end;
+}
+.close {
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.DetailInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+  gap: 5rem;
+  margin-left: 1.5rem;
+}
+
+.image-container {
+  height: 65vh;
+  width: 35vw;
+  overflow: hidden;
+  align-items: center;
+  align-content: center;
+}
+
+.image-container img {
+  overflow: auto;
+  height: 25rem;
+  width: 25rem;
+  margin-top: 1rem;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.sub-info {
+  display: flex;
+  flex: row;
+  gap: 9rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.category-text {
+  color: #707070;
+  left: 0;
+  margin-left: 5px;
+}
+
+.ingredients-area,
+.instruction-area {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sub-info h5 {
+  margin-left: 1rem;
+}
