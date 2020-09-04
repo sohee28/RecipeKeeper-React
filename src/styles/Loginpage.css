@@ -1,0 +1,99 @@
+.loginpageclass {
+  background-color: #3f6f71;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.loginContainer {
+  width: 28vw;
+  height: 65vh;
+  margin: 17vh 36vw;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  border: none;
+  padding: 2rem;
+}
+.LoginSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.LoginTitleSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LoginTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.LoginTitle h4 {
+  color: #3f6f71;
+}
+.catImage {
+  height: 100px;
+  width: 110px;
+}
+
+.LoginInputSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.LoginInputSection input {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  padding: 0.5rem;
+  font-family: Andale Mono, AndaleMono, monospace;
+}
+
+.Signinbtn {
+  background-color: white;
+  border: none;
+  font-family: Andale Mono, AndaleMono, monospace;
+  text-align: left;
+  outline: none;
+  cursor: pointer;
+}
+
+.additionInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  font-size: 10px;
+  align-items: center;
+}
+
+.additionInfo span {
+  color: white;
+  background-color: #3f6f71;
+  font-size: 12px;
+  border: none;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  font-family: Andale Mono, AndaleMono, monospace;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.errorMsg {
+  font-size: 9px;
+  color: red;
+}
+
+@media only screen and (max-width: 900px) {
+  .catImage {
+    display: none;
+  }
+  .LoginTitleSection {
+    margin-bottom: 1rem;
+    margin-top: 0.6rem;
+  }
+}

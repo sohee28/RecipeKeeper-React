@@ -22,7 +22,6 @@
 .nav-ul {
   display: flex;
   flex-direction: row;
-  margin-right: 5%;
 }
 .nav-list {
   padding: 1rem;
@@ -30,12 +29,17 @@
   font-size: 14px;
 }
 
-.login-button {
+.userName {
+  padding: 1rem;
+  color: #3f6f71;
+}
+
+.loginbtn {
   color: white;
   background-color: #3f6f71;
-  font-size: 14px;
+  font-size: 12px;
   border: none;
-  padding: 0.6rem 1.8rem;
+  padding: 0.6rem 1rem;
   border-radius: 5px;
   font-family: Andale Mono, AndaleMono, monospace;
   cursor: pointer;

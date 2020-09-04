@@ -93,3 +93,16 @@
 .sub-info h5 {
   margin-left: 1rem;
 }
+
+@media only screen and (max-width: 1000px) {
+  .image-container img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sub-info {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}

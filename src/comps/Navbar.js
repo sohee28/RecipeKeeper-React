@@ -1,15 +1,9 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../image/logo.png";
 import "../styles/Navbar.css";
-import firebase, { auth, provider } from "./firebase/config.js";
 
-const Navbar = () => {
-
-  const [user, setUser] = useState("")
-
-
-
+const Navbar = ({ handleLogout, user }) => {
   return (
     <nav className="nav-bar">
       <img className="logo" src={logo} alt="logo-picture"></img>
@@ -22,7 +16,10 @@ const Navbar = () => {
             <ol className="nav-list">MyRecipe</ol>
           </Link>
         </ul>
-        <button onClick={login} className="login-button"></button>
+        <p className="userName">{user.displayName}</p>
+        <button className="loginbtn" onClick={handleLogout}>
+          Sign Out
+        </button>
       </div>
     </nav>
   );

@@ -133,3 +133,22 @@ label {
   cursor: pointer;
   border: 1px solid white;
 }
+
+@media only screen and (max-width: 900px) {
+  .AddRecipeForm-together {
+    flex-direction: column;
+    align-items: center;
+  }
+  .AddRecipeForm {
+    padding: 1px;
+  }
+  .AddRecipeForm-right img {
+    display: none;
+  }
+  .name-field,
+  .category-field,
+  .instruction-field,
+  .ingredient-field {
+    width: 50%;
+  }
+}
