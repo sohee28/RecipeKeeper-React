@@ -118,7 +118,15 @@ const MyRecipe = () => {
                 src={doc.url}
                 alt={doc.names}
               />
-              <h3>{doc.names}</h3>
+              <h3
+                style={{
+                  fontWeight: "normal",
+                  marginTop: "0.5rem",
+                  fontSize: "14px",
+                }}
+              >
+                {doc.names}
+              </h3>
               <div className="card-info">
                 <button onClick={() => handleEdit(doc)}>Edit</button>
 

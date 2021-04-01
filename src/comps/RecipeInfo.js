@@ -19,16 +19,16 @@ const RecipeInfo = ({ toggle, selectedDocs }) => {
         <div className="DetailInfo">
           <div className="info">
             <div className="main-info">
-              <div className="title">{selectedDocs.names.toUpperCase()}</div>
+              <div className="title">{selectedDocs.names}</div>
               <div className="category-text">{selectedDocs.categories}</div>
             </div>
             <div className="sub-info">
               <div className="ingredients-area">
-                <h4>INGREDIENTS:</h4>
+                <h4>Ingredients:</h4>
                 <h5>{selectedDocs.ingredients}</h5>
               </div>
               <div className="instruction-area">
-                <h4>INSTRUCTIONS:</h4>
+                <h4>Instructions:</h4>
                 <h5>{selectedDocs.instructions}</h5>
               </div>
             </div>

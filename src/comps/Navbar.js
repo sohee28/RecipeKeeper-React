@@ -16,7 +16,6 @@ const Navbar = ({ handleLogout, user }) => {
             <ol className="nav-list">MyRecipe</ol>
           </Link>
         </ul>
-        <p className="userName">{user.displayName}</p>
         <button className="loginbtn" onClick={handleLogout}>
           Sign Out
         </button>

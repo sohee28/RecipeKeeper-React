@@ -10,8 +10,8 @@
 }
 
 .logo {
-  height: 50px;
-  width: 100px;
+  height: 37px;
+  width: 80px;
   flex-shrink: 0;
 }
 .nav-right {
@@ -29,19 +29,26 @@
   font-size: 14px;
 }
 
+.nav-list:hover {
+  text-decoration-line: underline;
+}
+
 .userName {
   padding: 1rem;
-  color: #3f6f71;
+  color: black;
 }
 
 .loginbtn {
-  color: white;
-  background-color: #3f6f71;
-  font-size: 12px;
+  color: black;
+  font-size: 14px;
   border: none;
   padding: 0.6rem 1rem;
   border-radius: 5px;
-  font-family: Andale Mono, AndaleMono, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
-  border: 1px solid white;
+  margin-left: 0.5rem;
+}
+.loginbtn:hover {
+  color: white;
+  background-color: #3f6f71;
 }

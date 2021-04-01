@@ -50,13 +50,13 @@
   border-bottom: 1px solid grey;
   outline: none;
   padding: 0.5rem;
-  font-family: Andale Mono, AndaleMono, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .Signinbtn {
   background-color: white;
   border: none;
-  font-family: Andale Mono, AndaleMono, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   outline: none;
   cursor: pointer;
@@ -78,7 +78,7 @@
   border: none;
   padding: 1rem 1rem;
   border-radius: 5px;
-  font-family: Andale Mono, AndaleMono, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
   border: 1px solid white;
 }
